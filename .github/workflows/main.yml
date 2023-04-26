@@ -31,7 +31,7 @@ jobs:
           docker run \
           -v "$GITHUB_WORKSPACE/pages_repo/dist:/app/loconotion/dist" \
           -v "$GITHUB_WORKSPACE/pages_repo/site.toml:/app/loconotion/site.toml" \
-          loconotion "site.toml"
+          loconotion "site.toml" --clean --timeout 10
         working-directory: loconotion
       - name: Push to GitHub pages
         run: |
