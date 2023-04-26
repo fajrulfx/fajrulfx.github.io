@@ -75,7 +75,8 @@ a[data-token-index] svg.page {
   /* normalizes banner / page title width */
   .notion-scroller > div:not([class]),
   .notion-scroller > div > div:not([class]) {
-    width: 100% !important;
+    width: 90% !important;
+    margin: 0 auto;
     max-width: 960px !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -86,7 +87,8 @@ a[data-token-index] svg.page {
   .notion-page-content > .notion-collection_view-block,
   .notion-page-content > .notion-collection_view-block > div,
   .notion-page-content > .notion-collection_view-block > .notion-scroller > div {
-    width: 100vw !important;
+    width: 90vw !important;
+    margin: 0 auto;
     /* max-width: unset !important; */
     padding-right: 0 !important;
     padding-left: 0 !important;
