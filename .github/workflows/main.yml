@@ -15,7 +15,7 @@ jobs:
       - name: Checkout loconotion
         uses: actions/checkout@v2
         with:
-          repository: leoncvlt/loconotion
+          repository: fajrulfx/loconotion
           path: loconotion
       - name: Checkout this repo
         uses: actions/checkout@v2
