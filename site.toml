@@ -10,6 +10,7 @@ name = "site"
 page = "https://fajrulfx.notion.site/fajrulfx/Fajrul-s-Blog-94f06de440a243b595b70b3d1c67cacc"
 
 theme = "dark"
+extension_in_links = false
 
 ## Global Site Settings ##
 # this [site] table defines override settings for the whole site
