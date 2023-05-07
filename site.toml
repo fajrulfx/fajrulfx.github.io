@@ -22,7 +22,7 @@ extension_in_links = false
   # the following adds the tag <meta name="title" content="Loconotion Test Site"/>
   [[site.meta]]
   name = "title"
-  content = "Fajrul's Blog"
+  content = "Fajrul Fx's Blog"
   [[site.meta]]
   name = "description"
   content = "Personal website of Fajrul Falah"
